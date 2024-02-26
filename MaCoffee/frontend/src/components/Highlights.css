@@ -1,0 +1,5 @@
+.card {
+    background-color: #4a2c23; /* Slightly lighter coffee-like color for input */
+    border: 1px solid #6b3f2e; /* Border color */
+    color: white; /* Text color for input */
+}

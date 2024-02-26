@@ -1,0 +1,47 @@
+/* AppNavbar.css */
+
+body {
+    font-family: 'Merienda', cursive;
+  }
+
+.navbar {
+    background-color: #4a2c23 !important; /* Dark coffee-like color for navbar */
+    margin-bottom: 10%;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: white !important; /* Text color for links and brand */
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #a87051 !important; /* Lighter color on hover */
+}
+
+.navbar-toggler-icon {
+    background-color: white !important; /* Color for the hamburger icon */
+}
+
+.navbar-toggler {
+    border-color: white !important; /* Border color for the hamburger icon */
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+    background-color: #4a2c23 !important; /* Dark background for the navbar content */
+    padding: 10px; /* Add padding for a cleaner look */
+}
+
+.navbar-nav {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    padding: 10px; /* Add padding to the links for better spacing */
+}

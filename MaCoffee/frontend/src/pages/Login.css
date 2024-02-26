@@ -1,0 +1,41 @@
+/* Login.css */
+
+.container {
+    background-color: #4a2c23; /* Dark coffee-like color */
+    padding: 20px;
+    border-radius: 10px;
+    color: white; /* Text color for contrast */
+}
+
+.form-control {
+    background-color: #6b3f2e; /* Slightly lighter coffee-like color for input */
+    border: 1px solid #6b3f2e; /* Border color */
+    color: white; /* Text color for input */
+}
+
+.form-control:focus {
+    background-color: #8c583f; /* Darker color on focus */
+    border-color: #8c583f; /* Darker border on focus */
+    color: white; /* Text color on focus */
+}
+
+.btn-primary {
+    background-color: #8c583f; /* Coffee button background */
+    border: 1px solid #8c583f; /* Coffee button border */
+    color: white; /* Button text color */
+}
+
+.btn-primary:hover {
+    background-color: #a87051; /* Lighter coffee color on hover */
+    border-color: #a87051;
+}
+
+.btn-primary:disabled {
+    background-color: #7a7a7a; /* Gray for disabled button */
+    border-color: #7a7a7a;
+    cursor: not-allowed;
+}
+
+.form-label {
+    color: #c47b5a; /* Label text color */
+}
